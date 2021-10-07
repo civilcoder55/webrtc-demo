@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+body {
+  font-family: "Syne Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 80px 10px;
+}
+
+video {
+  width: 61vw;
+  height: 46vw;
+  margin-top: 2rem;
+  background: #2c3e50;
+  max-height: 500px;
+  object-fit: fill;
+  max-width: 800px;
+}
+
+/* .videos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+} */
+
+.danger {
+  color: rgb(170, 16, 16);
+}
+
+.warning {
+  color: rgb(255, 136, 0);
+}
+
+.success {
+  color: rgb(2, 161, 10);
+}
+
+.box {
+  position: absolute;
+}
+
+.box.transition {
+  width: 20%;
+  height: 18%;
+  border: 1px solid royalblue;
+  transition: all 2s linear;
+}
+
+.buttons_container {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+}
+
+.video_button {
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.btn-custom{
+  background-color: black;
+}
