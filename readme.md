@@ -6,3 +6,26 @@
 <p align="center">
   <img src="screenshot.png" alt="Demo">
 </p>
+
+
+### Usage
+
+1. Clone the repo
+    ```sh
+    git clone https://github.com/civilcoder55/webrtc-demo.git
+    ```
+
+2. Install npm packages
+    ```sh
+    npm install
+    ```
+
+3. run server 
+    ```sh
+    npm start 
+    ```
+
+4. go to 
+    ```sh 
+    http://127.0.0.1:3000/ 
+    ```
